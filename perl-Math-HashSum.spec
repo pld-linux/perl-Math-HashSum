@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	HashSum
+%define		pdir	Math
+%define		pnam	HashSum
 Summary:	Math::HashSum - sum a list of key-value pairs on a per-key basis
 Summary(pl):	Math::HashSum - sumowanie listy par klucz-warto¶æ na podstawie klucza
 Name:		perl-Math-HashSum
