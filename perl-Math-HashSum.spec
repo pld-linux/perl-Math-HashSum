@@ -11,7 +11,7 @@ Name:		perl-Math-HashSum
 Version:	0.02
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fe474ff52a3ce086e9887d821f784f5a
