@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	HashSum
 Summary:	Math::HashSum - sum a list of key-value pairs on a per-key basis
-Summary(pl):	Math::HashSum - sumowanie listy par klucz-warto¶æ na podstawie klucza
+Summary(pl.UTF-8):   Math::HashSum - sumowanie listy par klucz-wartoÅ›Ä‡ na podstawie klucza
 Name:		perl-Math-HashSum
 Version:	0.02
 Release:	1
@@ -25,10 +25,10 @@ This module allows you to sum a list of key-value pairs on a per-key
 basis. It adds up all the values associated with each key in the given
 list and returns a hash containing the sum associated with each key.
 
-%description -l pl
-Ten modu³ pozwala zsumowaæ listê par klucz-warto¶æ na podstawie
-klucza. Dodaje wszystkie warto¶ci zwi±zane z ka¿dym kluczem z podanej
-listy i zwraca hash zawieraj±cy sumê zwi±zan± z ka¿dym kluczem.
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala zsumowaÄ‡ listÄ™ par klucz-wartoÅ›Ä‡ na podstawie
+klucza. Dodaje wszystkie wartoÅ›ci zwiÄ…zane z kaÅ¼dym kluczem z podanej
+listy i zwraca hash zawierajÄ…cy sumÄ™ zwiÄ…zanÄ… z kaÅ¼dym kluczem.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
