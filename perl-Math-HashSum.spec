@@ -9,7 +9,7 @@ Summary:	Math::HashSum - sum a list of key-value pairs on a per-key basis
 Summary(pl.UTF-8):	Math::HashSum - sumowanie listy par klucz-wartość na podstawie klucza
 Name:		perl-Math-HashSum
 Version:	0.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
