@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	HashSum
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::HashSum - sum a list of key-value pairs on a per-key basis
 Summary(pl.UTF-8):	Math::HashSum - sumowanie listy par klucz-wartość na podstawie klucza
 Name:		perl-Math-HashSum
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fe474ff52a3ce086e9887d821f784f5a
+URL:		http://search.cpan.org/dist/Math-HashSum/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
